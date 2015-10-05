@@ -1,6 +1,6 @@
 # play-framework
 
-Docker image which provides the play framework 2.2.5.
+Docker image which provides the play framework 2.2.6.
 
 ## Run your app
 
