@@ -17,7 +17,7 @@ Here is an example of a docker run command:
 docker run -d \
   -v /path/to/your/play/app:/app:rw \
   -p 80:9000 \
-  ingensi/play-framework
+  spoonito/docker-play-framework
 ```
 In some cases, you'll need to run play with the current user:
 
@@ -26,14 +26,14 @@ docker run -d \
   -v /path/to/your/play/app:/app:rw \
   -p 80:9000 \
   -u $(id -u)
-  ingensi/play-framework
+  spoonito/docker-play-framework
 ```
 
 
 You can also package your app, in order to do that, create a `Dockerfile` like it:
 
 ```
-FROM ingensi/play-framework:latest
+FROM spoonito/docker-play-framework:2.3.9
 MAINTERNER <your@email.com>
 
 ADD /path/to/my/play-src /app
