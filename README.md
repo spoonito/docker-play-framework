@@ -1,8 +1,8 @@
 ![play][1]
 # play-framework
 
-Docker image which provides a typesafe activator 1.3.2, designed to launch play applications (v2.3+).
-* Activator: 1.3.2
+Docker image which provides a typesafe activator 1.3.6-minimal, designed to launch play applications (v2.3+).
+* Activator: 1.3.6-minimal
 * Play version: 2.3.9 
 * Java: Oracle-jdk-8u45
 * OS: CentOS-7
